@@ -1,17 +1,18 @@
-/* String
-const what = "피자먹고싶다";
+const kwonsensei = {
+  name:"kwonseoin",
+  age:22,
+  gender:"Male",
+  isHandsome:true,
+  favMovies:["Along the gods", "LOTR", "Oldboy"],
+  favFood: [
+    {
+      name:"kimchi", fatty:false
+    },
+    {
+      name:"Cheese burger",
+      fatty:true
+    }
+  ]
+}
 
-console.log(what);
-*/
-/*
-Boolean
-const wat = true;
-*/
-/*
-Number
-const wat = 666;
-*/
-/*
-Float
-const wat = 55.1;
-*/
+console.log(kwonsensei);
